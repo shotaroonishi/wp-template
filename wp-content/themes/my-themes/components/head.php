@@ -1,1 +1,2 @@
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content=""/><meta name="keywords" content=""/><link rel="stylesheet" href="/css/reset.min.css"/><link rel="stylesheet" href="/css/style.min.css"/><title>タイトル</title>
+<meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta name="description" content=""/><meta name="keywords" content=""/><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.min.css"/><link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/style.min.css"/><title>タイトル</title><?php wp_enqueue_script('jquery'); ?>
+<?php wp_head(); ?>
